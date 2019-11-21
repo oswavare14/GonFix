@@ -111,7 +111,6 @@ public class main1 extends javax.swing.JFrame {
 
         jd_registrar.setDefaultCloseOperation(javax.swing.WindowConstants.DO_NOTHING_ON_CLOSE);
         jd_registrar.setTitle("Registrar");
-        jd_registrar.setPreferredSize(new java.awt.Dimension(450, 750));
         jd_registrar.setResizable(false);
         jd_registrar.setSize(new java.awt.Dimension(450, 750));
 
@@ -264,9 +263,7 @@ public class main1 extends javax.swing.JFrame {
             .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
-        jd_menu.setMaximumSize(new java.awt.Dimension(450, 750));
         jd_menu.setMinimumSize(new java.awt.Dimension(450, 750));
-        jd_menu.setPreferredSize(new java.awt.Dimension(450, 750));
         jd_menu.setResizable(false);
         jd_menu.setSize(new java.awt.Dimension(450, 750));
 
@@ -516,7 +513,6 @@ public class main1 extends javax.swing.JFrame {
             .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
-        jd_lista.setPreferredSize(new java.awt.Dimension(450, 750));
         jd_lista.setResizable(false);
         jd_lista.setSize(new java.awt.Dimension(450, 785));
 
@@ -630,7 +626,6 @@ public class main1 extends javax.swing.JFrame {
             .addComponent(jPanel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
-        jd_perfil.setPreferredSize(new java.awt.Dimension(450, 750));
         jd_perfil.setResizable(false);
         jd_perfil.setSize(new java.awt.Dimension(450, 750));
 
@@ -710,7 +705,6 @@ public class main1 extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("App_Grupo_3");
-        setPreferredSize(new java.awt.Dimension(450, 750));
         setResizable(false);
         setSize(new java.awt.Dimension(450, 750));
 
@@ -732,7 +726,7 @@ public class main1 extends javax.swing.JFrame {
         jPanel5.setBackground(new java.awt.Color(106, 196, 211));
 
         label_registrar.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        label_registrar.setText("Regristrar");
+        label_registrar.setText("Registrar");
         label_registrar.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 label_registrarMouseClicked(evt);
@@ -1010,15 +1004,12 @@ public class main1 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel11;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
-    private javax.swing.JPanel jPanel8;
-    private javax.swing.JPanel jPanel9;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JButton jb_entrar;
     private javax.swing.JButton jb_registrar;
@@ -1037,9 +1028,6 @@ public class main1 extends javax.swing.JFrame {
     private javax.swing.JTextField jt_regusu;
     private javax.swing.JTextField jt_user;
     private javax.swing.JLabel label_registrar;
-    private javax.swing.JLabel label_registrar1;
-    private javax.swing.JLabel label_registrar2;
-    private javax.swing.JLabel label_registrar3;
     private javax.swing.JTextArea ta_direc;
     // End of variables declaration//GEN-END:variables
 }
