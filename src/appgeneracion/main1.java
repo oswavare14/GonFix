@@ -89,6 +89,7 @@ public class main1 extends javax.swing.JFrame {
         jLabel32 = new javax.swing.JLabel();
         jLabel34 = new javax.swing.JLabel();
         jLabel35 = new javax.swing.JLabel();
+        jPanel7 = new javax.swing.JPanel();
         jd_perfil = new javax.swing.JDialog();
         jPanel4 = new javax.swing.JPanel();
         jLabel36 = new javax.swing.JLabel();
@@ -97,8 +98,8 @@ public class main1 extends javax.swing.JFrame {
         jLabel37 = new javax.swing.JLabel();
         jLabel38 = new javax.swing.JLabel();
         jLabel39 = new javax.swing.JLabel();
-        jLabel40 = new javax.swing.JLabel();
-        jLabel17 = new javax.swing.JLabel();
+        jPanel8 = new javax.swing.JPanel();
+        label_registrar1 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
@@ -542,6 +543,19 @@ public class main1 extends javax.swing.JFrame {
 
         jLabel35.setText("Apellido:......");
 
+        jPanel7.setBackground(new java.awt.Color(106, 196, 211));
+
+        javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
+        jPanel7.setLayout(jPanel7Layout);
+        jPanel7Layout.setHorizontalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 450, Short.MAX_VALUE)
+        );
+        jPanel7Layout.setVerticalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 89, Short.MAX_VALUE)
+        );
+
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
         jPanel6Layout.setHorizontalGroup(
@@ -577,6 +591,7 @@ public class main1 extends javax.swing.JFrame {
                                 .addComponent(jLabel22))
                             .addComponent(jLabel24))))
                 .addContainerGap(101, Short.MAX_VALUE))
+            .addComponent(jPanel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         jPanel6Layout.setVerticalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -592,7 +607,7 @@ public class main1 extends javax.swing.JFrame {
                             .addComponent(jLabel22))
                         .addGap(52, 52, 52)
                         .addComponent(jLabel24)))
-                .addGap(57, 57, 57)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 78, Short.MAX_VALUE)
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel25)
                     .addGroup(jPanel6Layout.createSequentialGroup()
@@ -602,7 +617,7 @@ public class main1 extends javax.swing.JFrame {
                             .addComponent(jLabel30))
                         .addGap(52, 52, 52)
                         .addComponent(jLabel29)))
-                .addGap(59, 59, 59)
+                .addGap(78, 78, 78)
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel31)
                     .addGroup(jPanel6Layout.createSequentialGroup()
@@ -612,7 +627,8 @@ public class main1 extends javax.swing.JFrame {
                             .addComponent(jLabel35))
                         .addGap(52, 52, 52)
                         .addComponent(jLabel34)))
-                .addContainerGap(212, Short.MAX_VALUE))
+                .addGap(83, 83, 83)
+                .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         javax.swing.GroupLayout jd_listaLayout = new javax.swing.GroupLayout(jd_lista.getContentPane());
@@ -643,51 +659,70 @@ public class main1 extends javax.swing.JFrame {
 
         jLabel39.setText("Correo");
 
-        jLabel40.setText("Modificar");
+        jPanel8.setBackground(new java.awt.Color(106, 196, 211));
+
+        label_registrar1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        label_registrar1.setText("Modificar");
+        label_registrar1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                label_registrar1MouseClicked(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
+        jPanel8.setLayout(jPanel8Layout);
+        jPanel8Layout.setHorizontalGroup(
+            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(label_registrar1)
+                .addGap(22, 22, 22))
+        );
+        jPanel8Layout.setVerticalGroup(
+            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
+                .addContainerGap(40, Short.MAX_VALUE)
+                .addComponent(label_registrar1)
+                .addGap(27, 27, 27))
+        );
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
         jPanel4Layout.setHorizontalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(jPanel4Layout.createSequentialGroup()
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel4Layout.createSequentialGroup()
+                        .addGap(187, 187, 187)
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel4Layout.createSequentialGroup()
-                                .addGap(151, 151, 151)
-                                .addComponent(jLabel36))
-                            .addGroup(jPanel4Layout.createSequentialGroup()
-                                .addGap(187, 187, 187)
-                                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel21)
-                                    .addComponent(jLabel20)
-                                    .addComponent(jLabel37)
-                                    .addComponent(jLabel38)
-                                    .addComponent(jLabel39))))
-                        .addGap(0, 167, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(jLabel40)))
-                .addContainerGap())
+                            .addComponent(jLabel21)
+                            .addComponent(jLabel20)
+                            .addComponent(jLabel37)
+                            .addComponent(jLabel38)
+                            .addComponent(jLabel39)))
+                    .addGroup(jPanel4Layout.createSequentialGroup()
+                        .addGap(158, 158, 158)
+                        .addComponent(jLabel36)))
+                .addContainerGap(172, Short.MAX_VALUE))
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel4Layout.createSequentialGroup()
-                .addGap(99, 99, 99)
+                .addGap(92, 92, 92)
                 .addComponent(jLabel36)
-                .addGap(94, 94, 94)
+                .addGap(70, 70, 70)
                 .addComponent(jLabel20)
-                .addGap(35, 35, 35)
+                .addGap(66, 66, 66)
                 .addComponent(jLabel21)
-                .addGap(38, 38, 38)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 59, Short.MAX_VALUE)
                 .addComponent(jLabel37)
-                .addGap(48, 48, 48)
+                .addGap(52, 52, 52)
                 .addComponent(jLabel38)
-                .addGap(45, 45, 45)
+                .addGap(53, 53, 53)
                 .addComponent(jLabel39)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 162, Short.MAX_VALUE)
-                .addComponent(jLabel40)
-                .addContainerGap())
+                .addGap(69, 69, 69)
+                .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         javax.swing.GroupLayout jd_perfilLayout = new javax.swing.GroupLayout(jd_perfil.getContentPane());
@@ -700,8 +735,6 @@ public class main1 extends javax.swing.JFrame {
             jd_perfilLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
-
-        jLabel17.setText("jLabel17");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("App_Grupo_3");
@@ -825,6 +858,14 @@ public class main1 extends javax.swing.JFrame {
     private void jl_atrasMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jl_atrasMouseClicked
         // TODO add your handling code here:
         jd_registrar.setVisible(false);
+        jt_nombre.setText("");
+        jt_apellido.setText("");
+        jt_num.setText("");
+        ta_direc.setText("");
+        jt_correo.setText("");
+        jt_contra.setText("");
+        jt_regusu.setText("");
+        jt_ID.setText("");
     }//GEN-LAST:event_jl_atrasMouseClicked
 
     private void jb_registrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jb_registrarActionPerformed
@@ -914,6 +955,10 @@ public class main1 extends javax.swing.JFrame {
         jd_perfil.setVisible(true);
     }//GEN-LAST:event_jLabel26MouseClicked
 
+    private void label_registrar1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_label_registrar1MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_label_registrar1MouseClicked
+
     /**
      * @param args the command line arguments
      */
@@ -965,7 +1010,6 @@ public class main1 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
@@ -991,7 +1035,6 @@ public class main1 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel38;
     private javax.swing.JLabel jLabel39;
     private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel40;
     private javax.swing.JLabel jLabel41;
     private javax.swing.JLabel jLabel42;
     private javax.swing.JLabel jLabel43;
@@ -1010,6 +1053,8 @@ public class main1 extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
+    private javax.swing.JPanel jPanel7;
+    private javax.swing.JPanel jPanel8;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JButton jb_entrar;
     private javax.swing.JButton jb_registrar;
@@ -1028,6 +1073,7 @@ public class main1 extends javax.swing.JFrame {
     private javax.swing.JTextField jt_regusu;
     private javax.swing.JTextField jt_user;
     private javax.swing.JLabel label_registrar;
+    private javax.swing.JLabel label_registrar1;
     private javax.swing.JTextArea ta_direc;
     // End of variables declaration//GEN-END:variables
 }
